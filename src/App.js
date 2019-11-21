@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import PostCompo from './components/postCompo.js'
+import PostCompo from './components/ArticleCompo.js'
 import data from "./MOCK_DATA.json";
 
 class App extends Component {

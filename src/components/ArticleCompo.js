@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './postCompo.css';
+import './ArticleCompo.css';
 
 class PostCompo extends Component {
     state = { }
@@ -9,10 +9,15 @@ class PostCompo extends Component {
             return (
                 <div className="article">
                     <div className="articleHead">
-                        {article.id}
+                        <div className="userImage">
+                            <img className="userImageDetail" src={article.user_img} alt="userImg" />
+                        </div>
+                        <div className="userName">
+                            {article.name}
+                        </div>
                     </div>
-                    <div className="articleImage">
-                        <img src={article.img} alt="img" />
+                    <div>
+                        <img className='articleImage' src={article.art_img} alt="articlImg" />
                     </div>
                     <div className="articleText">
                         <p>{article.text}</p>
