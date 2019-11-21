@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "text": "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+        "img": "http://dummyimage.com/149x247.png/cc0000/ffffff"
+    },
+    {
+        "id": 2,
+        "text": "Nulla tempus.",
+        "img": "http://dummyimage.com/187x189.jpg/dddddd/000000"
+    },
+    {
+        "id": 3,
+        "text": "In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.",
+        "img": "http://dummyimage.com/131x241.jpg/cc0000/ffffff"
+    },
+    {
+        "id": 4,
+        "text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
+        "img": "http://dummyimage.com/119x215.jpg/dddddd/000000"
+    },
+    {
+        "id": 5,
+        "text": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
+        "img": "http://dummyimage.com/108x181.bmp/dddddd/000000"
+    }
+]
