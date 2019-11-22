@@ -12,11 +12,12 @@ class PostCompo extends Component {
     }
 
     _infiniteScroll = () => {
-        let scrollHeight = document.documentElement.scrollHeight;
-        let scrollTop = document.documentElement.scrollTop;
+        let scrollHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+        let scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
         let clientHeight = document.documentElement.clientHeight;
-
-        if(scrollTop + clientHeight === scrollHeight) {
+        //console.log('scrollTop : ', scrollTop, ' + clientHeight : ', clientHeight);
+        //console.log('scrollHeight : ', scrollHeight);
+        if(scrollTop + clientHeight >= scrollHeight - 300) {
             this.setState({
                 //articleStdIdx: this.state.articleStdIdx + 5
                 articleLoadCnt: this.state.articleLoadCnt + 5
@@ -28,7 +29,7 @@ class PostCompo extends Component {
         return this.props.articles.map((article) => {
             // if ( this.state.articleStdIdx <= article.r_id && article.r_id < this.state.articleStdIdx + this.state.articleLoadCnt) {
             if ( article.r_id <= this.state.articleLoadCnt) {
-                console.log(article.r_id);
+                //console.log(article.r_id);
                 return (
                     <div className="article">
                         <div className="articleHead">
