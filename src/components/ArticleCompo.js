@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ArticleCompo.css';
+import Normal from '../image/normal.png';
 
 class PostCompo extends Component {
     state = {
@@ -42,6 +43,14 @@ class PostCompo extends Component {
                         </div>
                         <div>
                             <img className='articleImage' src={article.art_img} alt="articlImg" />
+                        </div>
+                        <div className='articleState'>
+                            <div className='stateDiv'>
+                                <img src ={Normal} className='stateBtn' onClick={() => alert('좋아요!')} />
+                            </div>
+                            <div className ='updateDiv'>
+                                <button className ='updateBtn'onClick={() => alert('수정하기!')}>수정</button>
+                            </div>
                         </div>
                         <div className="articleText">
                             <p>{article.text}</p>
